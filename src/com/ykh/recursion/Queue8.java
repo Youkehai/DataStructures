@@ -62,8 +62,8 @@ public class Queue8 {
         return true;
     }
 
-    //定义一个可以将皇后摆放的位置打印出来
     /**
+     * 定义一个可以将皇后摆放的位置打印出来
      * 打印结果
      */
     private void print(){
