@@ -104,7 +104,6 @@ public class BubbleSort {
      */
     public static void bubble(int[] arr2){
         //简化代码版双层for 增加是否排序标识
-
         int temp2=0;
         boolean flag=false;//是否进行过排序
         for(int i=0,len=arr2.length-1;i<len;i++){
