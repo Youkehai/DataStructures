@@ -9,4 +9,4 @@ java数据结构和算法练习题 正在学习中 争取每天更新 直到学�
 <h4>6.<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/recursion/Queue8.java">八皇后问题</a></h4>
 <h4>7.<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/recursion/MiGong.java">简易迷宫找路问题</a></h4>
 <h3>8.排序算法</h3>
-<h4>8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/BulessSort.java">冒泡排序</a></h4>
+<h4>8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/BubbleSort.java">冒泡排序</a></h4>
