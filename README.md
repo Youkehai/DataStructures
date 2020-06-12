@@ -1,5 +1,5 @@
 # DataStructures
-java数据结构和算法练习题 正在学习中 争取每天更新 直到学完为止
+java数据结构和算法练习题 简单小案例
 <h2>目录</h2>
 <h4>1.<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sparesArray/SparseArray.java">稀疏数组</a></h4>
 <h3>2.链表</h3>
