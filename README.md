@@ -6,7 +6,7 @@ java数据结构和算法练习题 正在学习中 争取每天更新 直到学�
 <h4>&nbsp;&nbsp;&nbsp;2.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/linkedList/SingleLinkedList/SingleLinkedListDemo.java">单链表</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;2.2<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/linkedList/DoubleLinkedList/DoubleLinkedListDemo.java">双向链表</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;2.3<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/linkedList/josephu/josephuDemo.java">约瑟夫问题</a></h4>
-<h3>3.</h3>
+<h3>3.栈</h3>
 <h4>&nbsp;&nbsp;&nbsp;3.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/Stack/ArrayStackDemo.java">数组实现栈</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;3.2<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/Stack/LinkedListStackDemo.java">链表实现栈</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;3.3<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/Stack/Calculator.java">简易计算器</a></h4>
