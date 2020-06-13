@@ -17,3 +17,5 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;4.2<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/recursion/MiGong.java">简易迷宫找路问题</a></h4>
 <h3>5.排序算法</h3>
 <h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/BubbleSort.java">冒泡排序</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/SelectSort.java">选择排序</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/InsertSort.java">插入排序</a></h4>
