@@ -11,7 +11,6 @@ public class SelectSort {
 //        int arr[]={101,46,78,96,-1,56,99};
 //        selectSort(arr);
 //        System.out.println(Arrays.toString(arr));
-
         //测试冒泡排序速度 50000数据进行排序
         //创建五万个数据
         int arr3[] =new int[50000];
