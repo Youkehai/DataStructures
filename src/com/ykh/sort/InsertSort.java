@@ -6,7 +6,6 @@
 package com.ykh.sort;
 
 import java.util.Arrays;
-
 /**
  * 插入排序
  */
