@@ -87,14 +87,14 @@ public class BubbleSort {
         System.out.println(Arrays.toString(arr2));
 
         //测试冒泡排序速度 50000数据进行排序
-        //创建八万个数据
+        //创建五万个数据
         int arr3[] =new int[50000];
         for(int i=0;i<50000;i++){
             arr3[i]= (int) (Math.random()*66666);
         }
-        long starttime= System.currentTimeMillis();
+        long startTime= System.currentTimeMillis();
         bubble(arr3);
-        long needTime=+System.currentTimeMillis()-starttime;
+        long needTime=+System.currentTimeMillis()-startTime;
         System.out.println("冒泡排序所需时间"+needTime+"ms");//五万条数据我的电脑耗费了9.5-11秒左右
     }
 
