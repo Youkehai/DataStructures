@@ -33,7 +33,6 @@ public class ShellSort {
         }
         long startTime1= System.currentTimeMillis();
         shellSortMove(arr4);
-        //shellSortMove(arr);
        // System.out.println(Arrays.toString(arr));
         long needTime1=System.currentTimeMillis()-startTime1;
         System.out.println("移动希尔排序所需时间"+needTime1+"ms");// 八万数据大概0.013-0.020秒左右
