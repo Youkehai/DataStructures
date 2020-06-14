@@ -3,6 +3,7 @@ package com.ykh.sort;
 import java.util.Arrays;
 /**
  * 选择排序
+ * 总结：依次拿一个数字和后面的所有数字进行对比 找到每一次循环的最小值放到前面
  */
 public class SelectSort {
 
