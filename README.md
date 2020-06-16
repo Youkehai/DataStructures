@@ -19,3 +19,4 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/BubbleSort.java">冒泡排序</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/SelectSort.java">选择排序</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/InsertSort.java">插入排序</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/ShellSort.java">希尔排序</a></h4>
