@@ -6,6 +6,7 @@ import java.util.Date;
 
 /**
  * 冒泡排序
+ * 时间复杂度:o(n²)
  */
 public class BubbleSort {
     public static void main(String[] args) {

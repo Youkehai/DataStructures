@@ -1,5 +1,6 @@
 # DataStructures
 java数据结构和算法练习题 简单小案例
+其中的算法速度测试在不同电脑中会不一样（仅做参考） 注释中的时间是本人电脑测试时间 
 <h2>目录</h2>
 <h4>1.<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sparesArray/SparseArray.java">稀疏数组</a></h4>
 <h3>2.链表</h3>
@@ -21,3 +22,4 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;5.3<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/InsertSort.java">插入排序</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;5.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/ShellSort.java">希尔排序</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;5.5<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/QuickSort.java">快速排序</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;5.6<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/MegetSort.java">归并排序</a></h4>

@@ -8,6 +8,7 @@ package com.ykh.sort;
 import java.util.Arrays;
 /**
  * 插入排序
+ * 时间复杂度:o(n²)
  * 总结：依次拿一个数据去和后面的数据比较 找到合适自己的位置并插入到当前位置
  */
 public class InsertSort {

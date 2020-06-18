@@ -8,6 +8,7 @@ import java.util.Arrays;
 
 /**
  * 快速排序
+ * 平均时间复杂度:o(nlogn) 最差o(n²)
  *思路：
  * 1.在集合中取一个中间值 把集合按照中间值进行分组
  * 2.将比这个中间值小的放在左边 大的放在右边
@@ -27,7 +28,7 @@ public class QuickSort {
         queicSort(arr4,0,arr4.length-1);
         // System.out.println(Arrays.toString(arr));
         long needTime1=System.currentTimeMillis()-startTime1;
-        System.out.println("快速排序所需时间"+needTime1+"ms");// 八万数据大概0.086秒左右  八十万大概0.22-0.25秒 八百万大概2.1-2.3秒
+        System.out.println("快速排序所需时间"+needTime1+"ms");// 八万数据大概0.086秒左右  八十万大概0.22-0.25秒 八百万大概1秒
     }
 
     /**
