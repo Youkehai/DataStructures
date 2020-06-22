@@ -23,3 +23,5 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;5.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/ShellSort.java">希尔排序</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;5.5<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/QuickSort.java">快速排序</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;5.6<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/sort/MegetSort.java">归并排序</a></h4>
+<h3>6.查找算法</h3>
+<h4>&nbsp;&nbsp;&nbsp;6.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/search/SeqSearch.java">线性查找</a></h4>
