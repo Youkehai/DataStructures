@@ -211,10 +211,6 @@ class EmployeeLinkedList{
         boolean flag=false;
         int i=0;//定义一个值
         while(true){
-            if(temp==null){
-                System.out.println("没有找到需要删除的编号");
-                break;
-            }
             if(temp.id==id){//这里不需要用之前的单链表的那种方式去删除 直接用当前temp的ID去对比就可以找到
 //                if(i==0){ //如果是第一次就直接找到了要删除的数据 那么直接在将自己后移一位即可
 //                    notDeleteData=temp.next;
@@ -223,6 +219,10 @@ class EmployeeLinkedList{
 //                    notDeleteData.next=temp.next;
 //                }
                 flag=true;
+                break;
+            }
+            if(temp.next==null){
+                System.out.println("没有找到需要删除的编号");
                 break;
             }
 //            Employee next=temp.next;
