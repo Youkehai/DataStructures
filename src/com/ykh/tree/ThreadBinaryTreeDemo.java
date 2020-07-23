@@ -25,7 +25,7 @@ public class ThreadBinaryTreeDemo {
         threadBinaryTreee.threadNodes();
         ThreadNode threadLeft = node4.getLeft();
         System.out.println("线索化之后"+threadLeft);
-
+        threadBinaryTreee.threadList();
     }
 }
 
@@ -41,6 +41,35 @@ class ThreadBinaryTreee{
 
     public void setRoot(ThreadNode root) {
         this.root = root;
+    }
+
+    //遍历线索化二叉树
+
+    /***
+     * 遍历出来的结果和之前线索化二叉树使用的方式有关
+     * 如果之前线索化二叉树是中序 那么遍历出来的就是中序
+     */
+    public void threadList(){
+        ThreadNode node=root;
+        while (node!=null){
+            //查找leftType==1的节点
+            //先往左一直找 找到有前驱节点的 则表示已经找到了最左边
+            while (node.getLeftType()==0){
+                node=node.getLeft();
+            }
+            //结束上述while后 输出最左边节点
+            //打印当前节点
+            System.out.println(node);
+            //如果当前节点右指针是后继节点 就往后一直输出
+            //因为线索化二叉树之后会排好顺序 只需往后一直拿后继节点即可
+            while (node.getRightType()==1){
+                //去拿当前节点的后继节点
+                node=node.getRight();
+                System.out.println(node);
+            }
+            //如果没有后继节点了 把当前节点往右移 继续找
+            node=node.getRight();
+        }
     }
 
     public void threadNodes(){
