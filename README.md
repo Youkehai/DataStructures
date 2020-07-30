@@ -28,7 +28,8 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;6.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/search/BinarySearch.java">二分查找</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;6.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/search/InsertValueSearch.java">插值查找</a></h4>
 <h3>7.树</h3>
-<h4>&nbsp;&nbsp;&nbsp;6.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/BinaryTreeDemo.java">二叉树</a></h4>
-<h4>&nbsp;&nbsp;&nbsp;6.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/ArrayBinaryTreeDemo.java">顺序二叉树</a></h4>
-<h4>&nbsp;&nbsp;&nbsp;6.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/ThreadBinaryTreeDemo.java">线索化二叉树</a></h4>
-<h4>&nbsp;&nbsp;&nbsp;6.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/HeapSort.java">堆排序</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;7.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/BinaryTreeDemo.java">二叉树</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;7.2<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/ArrayBinaryTreeDemo.java">顺序二叉树</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;7.3<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/ThreadBinaryTreeDemo.java">线索化二叉树</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;7.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/HeapSort.java">堆排序</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;7.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/huffmanTree/HuffmanTree.java">赫夫曼树</a></h4>
