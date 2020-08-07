@@ -33,3 +33,4 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;7.3<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/ThreadBinaryTreeDemo.java">线索化二叉树</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;7.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/tree/HeapSort.java">堆排序</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;7.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/huffmanTree/HuffmanTree.java">赫夫曼树</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;7.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/huffmanCode/HuffmanCode.java">赫夫编码解码</a></h4>
