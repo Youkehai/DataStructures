@@ -92,6 +92,23 @@ class BinarySortTree{
     }
 
     /**
+     *查找到Node下面最大的值 并删除 返回最大值
+     * @param node 传入的节点 （二叉树根节点）
+     * @return 返回以Node根节点 找到node下面的子树中的最大的值
+     */
+    public int delLeftTreeMax(Node node){
+        Node temp=node;//临时保存
+        //循环查找左节点 找到node下面的最小值
+        //找到最左边
+        while(temp.right!=null){
+            temp=temp.right;
+        }
+        //删除掉最大节点
+        remove(temp.value);
+        return temp.value;
+    }
+
+    /**
      *
      * @param value
      */
@@ -122,9 +139,13 @@ class BinarySortTree{
             }else if(targetNode.left!=null && targetNode.right!=null){//说明要删除的节点是一个拥有两颗子树的节点
                 //从需要删除的节点中 去从右侧找到右侧最小的节点(或者从左侧找到值最大的节点)
                 int minValue=delRightTreeMin(targetNode.right);
+                //从需要删除的节点中左侧找到值最大的节点
+                int maxValue=delLeftTreeMax(targetNode.left);
+
                 //将最小值赋值给要删除的节点 即将二叉树继续按照排序二叉树的排序方式进行调整 即左侧比父节点小 右侧比父节点值大
                 //因为从右侧找到最小的值 肯定比左侧大 比右侧小 可以继续形成排序二叉树
-                targetNode.value=minValue;
+              //  targetNode.value=minValue;
+                targetNode.value=maxValue;
             }else{//要删除的节点只有一颗子树
                 //如果要删除的节点有左子节点
                 if(targetNode.left!=null){
