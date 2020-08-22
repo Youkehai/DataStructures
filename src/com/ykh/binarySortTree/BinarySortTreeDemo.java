@@ -147,22 +147,28 @@ class BinarySortTree{
               //  targetNode.value=minValue;
                 targetNode.value=maxValue;
             }else{//要删除的节点只有一颗子树
-                //如果要删除的节点有左子节点
-                if(targetNode.left!=null){
-                    //如果要删除的节点是父节点的左子节点
-                    if(targetNode.value < parentNode.value){//说明是左子节点
-                        parentNode.left=targetNode.left;
-                    }else{
-                        parentNode.right=targetNode.left;
+                if (parentNode != null) {//如果删除的是根节点
+                    //如果要删除的节点有左子节点
+                    if(targetNode.left!=null){
+                        //如果要删除的节点是父节点的左子节点
+                        if(targetNode.value < parentNode.value){//说明是左子节点
+                            parentNode.left=targetNode.left;
+                        }else{
+                            parentNode.right=targetNode.left;
+                        }
+                    }else{//说明要删除的节点有右子树节点
+                        //如果要删除的节点是父节点的左子节点
+                        if(targetNode.value < parentNode.value){//说明是左子节点
+                            parentNode.left=targetNode.right;
+                        }else{
+                            parentNode.right=targetNode.right;
+                        }
                     }
-                }else{//说明要删除的节点有右子树节点
-                    //如果要删除的节点是父节点的左子节点
-                    if(targetNode.value < parentNode.value){//说明是左子节点
-                        parentNode.left=targetNode.right;
-                    }else{
-                        parentNode.right=targetNode.right;
-                    }
+                }else{
+                    //先左节点再右节点
+                    root=targetNode.left!=null ?targetNode.left:targetNode.right ;
                 }
+
             }
         }
     }
