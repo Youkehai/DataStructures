@@ -38,3 +38,6 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;7.7<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/avl/AVLTreeDemo.java">二叉排序平衡(AVL)树</a></h4>
 <h3>8.图</h3>
 <h4>&nbsp;&nbsp;&nbsp;8.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/graph/Graph.java">图的广度优先和广度优先遍历算法</a></h4>
+<h3>9.十大经典算法</h3>
+<h4>&nbsp;&nbsp;&nbsp;9.1<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/BinarySearchNoRecur.java">不递归的二分查找算法</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;9.2<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/dac/Hanoitower.java">分治算法(汉诺塔的实现)</a></h4>
