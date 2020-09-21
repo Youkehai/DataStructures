@@ -44,3 +44,4 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;9.3<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/dyanmic/KnapsackProblem.java">动态规划算法(背包问题)</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;9.4<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/kmp/ViolenceMatch.java">字符串暴力匹配</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;9.5<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/kmp/KmpAlgorithm.java">KMP字符串匹配</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;9.6<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/greedy/GreedyAlgorithm.java">贪心算法</a></h4>
