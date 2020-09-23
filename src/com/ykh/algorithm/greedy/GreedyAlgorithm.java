@@ -11,6 +11,7 @@ import java.util.Map;
 
 /**
  * 贪心算法
+ * 注意 ：贪心算法拿到得结果 不一定是最优解 但是一定接近最优解
  */
 public class GreedyAlgorithm {
     public static void main(String[] args) {
