@@ -46,3 +46,4 @@ java数据结构和算法练习题 简单小案例
 <h4>&nbsp;&nbsp;&nbsp;9.5<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/kmp/KmpAlgorithm.java">KMP字符串匹配</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;9.6<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/greedy/GreedyAlgorithm.java">贪心算法</a></h4>
 <h4>&nbsp;&nbsp;&nbsp;9.7<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/prim/PrimAlgorithm.java">普利姆最小路径规划算法</a></h4>
+<h4>&nbsp;&nbsp;&nbsp;9.8<a href="https://github.com/Youkehai/DataStructures/blob/master/src/com/ykh/algorithm/kruskal/KruskalCase.java">克鲁斯卡尔算法解决公交站问题</a></h4>
