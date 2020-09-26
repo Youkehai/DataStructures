@@ -6,6 +6,12 @@ package com.ykh.algorithm.kruskal;
 
 import java.util.Arrays;
 
+/**
+ * 克鲁斯卡尔算法
+ * 通过邻接矩阵拿到所有的边
+ * 然后将边根据权值进行从小到大的排序
+ * 然后再利用克鲁斯卡尔算法进行规划
+ */
 public class KruskalCase {
 
     private int edgeNum;//边的个数
