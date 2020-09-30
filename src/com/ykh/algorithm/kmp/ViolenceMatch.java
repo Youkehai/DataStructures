@@ -6,7 +6,7 @@ package com.ykh.algorithm.kmp;
 
 public class ViolenceMatch {
     public static void main(String[] args) {
-        int i = violenceMatch("我草你妈的傻逼", "傻逼");
+        int i = violenceMatch("测试匹配字符串哈哈喔喔嘻嘻", "喔喔");
         System.out.println(i);
     }
 
